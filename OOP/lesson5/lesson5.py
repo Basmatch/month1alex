@@ -15,7 +15,7 @@ class Mersedes_C220_202:
                 f'{self.year}')
 
 
-mersedes = Mersedes_C220_202(color='серый', fuel='disel', kuz0v='universal', year=1997)
+mersedes = Mer__sedes_C220_202(color='серый', fuel='disel', kuz0v='universal', year=1997)
 mersedes.comfort(True)
 
 
