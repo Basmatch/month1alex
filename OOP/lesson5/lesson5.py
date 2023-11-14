@@ -6,7 +6,7 @@ class Mersedes_C220_202:
         self.year = year
 
     def comfort(self, yes_no):
-        return f'данная машина имеет комфорт {yes_no}'
+        return f'данная машина имеет комфорffffffт {yes_no}'
 
     def __str__(self):
         return (f'{self.color}\n'
@@ -19,7 +19,7 @@ mersedes = Mersedes_C220_202(color='серый', fuel='disel', kuz0v='universal'
 mersedes.comfort(True)
 
 
-class Mersedes_C220_203(Mersedes_C220_202):
+class Merse____des_C220_203(Mersedes_C220_202):
     def __init__(self, color, fuel, kuz0v, year, sdi, abs):
         super().__init__(color, fuel, kuz0v, year)
         self.sdi = sdi
